@@ -23,6 +23,7 @@ should return
     machine = IceCreamMachine(["vanilla", "chocolate"], ["chocolate sauce"])
     print(machine.scoops()) #should print[['vanilla', 'chocolate sauce'], ['chocolate', 'chocolate sauce']]
 """
+
 from itertools import product
 
 class IceCreamMachine:
